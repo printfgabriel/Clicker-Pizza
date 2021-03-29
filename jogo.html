@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Pizzaria</title>
+    <link rel="stylesheet" href="styleJogo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Syne+Mono&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="imagens/pedaco-de-pizza.png">
+  </head>
+
+  <body>
+    <section id="fimDeJogo">
+      <div>
+        <h2 class="fimTitulo">Parabéns, você finalizou o jogo!</h2>
+        <p>Voce conseguiu manter bem sua pizzaria e por isso alcançou o objetivo final do jogo:
+          10 mil pizzas!
+        </p>
+        <p>Parabéns! Espero que tenha se divertido com nosso Tycoon, que criamos com o intuito de mostrar nossos
+          conhecimentos de JavaScript, HTML E CSS. Caso queira, retorne ao jogo e continue se divertindo!
+        </p>
+        <button onclick="apertarBotaoFim()" id="botaoFim">Voltar ao jogo</button>
+        <img class="pizzaFim" src="imagens/pizza-fim.png"/>
+      </div>
+      <div>dasdasdasd</div>
+    </section>
+    <header>
+      <img src="imagens/pedaco-de-pizza.png">
+      <h1 id="titulo">Clicker Pizza</h1><br>
+    </header>
+<!--
+    <div id="alerta" role="alert">
+      <p>
+      Abububle </p>
+      <div class="center-button">
+        <button onclick="apertarBotaoAlerta()" id="alertaBotao">Continuar</button>
+      </div>
+    </div>
+-->
+    <div id="pizza">
+      <h2 id="numeroPizzas">Pizzas: 0.00</h2>
+      <button id="clique"><img src="imagens/pizza-clique.png"></button>
+    </div>
+
+    <div id="compras">
+      <button id="cozinheiro">Cozinheiro: 0.1 Pizzas/s <strong>0</strong><br> Preço: 10 Pizzas</button><br>
+      <button id="forno">Forno: 0.5 Pizzas/s <strong>0</strong><br> Preço: 50 Pizzas</button><br>
+      <button id="restaurante">Restaurante: 1 Pizzas/s <strong>0</strong><br> Preço: 100 Pizzas</button></button><br>
+      <button id="fabrica">Fábrica: 5 Pizzas/s <strong>0</strong><br> Preço: 500 Pizzas</button><br>
+      <button id="maquina">Máquina do ta chovendo hamburguer: 10 Pizzas/s <strong>0</strong><br> Preço: 1000 Pizzas</button><br>
+    </div>
+
+
+    <script src="nome.js"></script>
+    <script src="pizzaria.js"></script>
+  </body>
+  
+</html>

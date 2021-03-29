@@ -1,0 +1,206 @@
+#alerta{
+  color: #004085;
+  background-color: #cce5ff;
+  border-color: #b8daff;
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  width: 70em;
+  margin: auto;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.center-button {
+  display: flex;
+  justify-content: center;
+}
+
+button{
+  margin-right: 20px;
+  margin-left: auto;
+  outline: none;
+}
+
+#alertaBotao:hover {
+  transition: all 200ms;
+  background-color: #ffffff;
+  box-shadow: 4px 4px teal;
+  position: relative;
+  bottom: 1px;
+  right: 1px;
+  background: linear-gradient(to right ,#ffffff86 15%, #78eefb86);
+}
+     
+#alertaBotao{
+  transition: all 200ms;
+  width: 130px;
+  height: 30px;
+  color: #000000;
+  border-color: #000000;
+  position: relative;
+  border-radius: 9999em;
+  margin-left: 0 auto;
+  margin-right: auto;
+  font-size: 17px;
+  font-family : inherit;
+  background: linear-gradient(to left ,#ffffff86 15%, #78eefb86);
+  border-width: 1px;
+}
+
+body{ 
+    background-image: url(imagens/fundo.jpg);
+    font-family: 'Oswald', sans-serif;  
+}
+
+
+header{
+  padding-top: 1em;
+  text-align: center;
+  background-color: rgb(212, 148, 63);
+  margin-top: -20px;
+  margin-left: -8px;
+  margin-right: -8px;
+  font-size: 20px;
+  height: 100px;
+}
+
+header img{
+    width: 140px;
+    display: inline-block;
+    position: absolute;
+    left: 390px;
+    top: 15px;
+}
+
+#titulo{
+  margin-top: 10px;
+}
+
+button{
+  cursor: pointer;
+}
+
+#pizza button{
+  width: 300px;
+  border-radius: 150px;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+#pizza img{
+  width: 300px;
+  margin-left: -10px;
+  animation: rotation 4s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+#pizza h2{
+  background-color: #ffffff;
+  border-color: #000000;
+  border-radius: 2px;
+  width: 300px;
+  text-align: center;
+}
+
+#pizza{
+  margin-top: 70px;
+  margin-left: 80px;
+}
+
+#compras{
+  float: right;
+  margin-top: -23%;
+}
+
+#compras strong{
+  font-size: 30px;
+  float: right;
+  margin-left: 15px;
+}
+
+#compras button{
+  width: 400px;
+  border-color: #ffffff;
+  border-radius: 5px;
+  padding-top: 5px;
+  color: #ffffff;
+  background-image: url(imagens/madeira-botao.jfif);
+  margin-top: 5px;
+  font-size: 14px;
+}
+/* section div:first-child {
+  background-color: rgb(255, 136, 0);
+  width: 500px;
+  height: 500px;
+  position: relative;
+  float: left;
+} */
+section{
+  display: none;
+  /* display: flex; */
+  justify-content: center;
+  align-self: center;
+}
+section div:first-child {
+  background-color: rgb(223, 130, 43);
+  width: 1000px;
+  height: 600px;
+  position: absolute;
+  z-index: 2;
+}
+.fimTitulo{
+  text-align: center;
+  font-size: 50px;
+  font-family: Didot;
+  margin-bottom: 70px;
+}
+.pizzaFim{
+  margin-top: -100px;
+  width: 500px;
+  margin-left: 600px;
+  position: relative;
+  bottom: 130px;
+}
+
+section p{
+  margin-left: 20px;
+  font-size: 23px;
+  margin-right: 250px;
+}
+
+section button{
+  color:black;
+  background-color: #e6e6e6;
+  position: relative;
+  padding: .75rem 1.25rem;
+  margin-bottom: 1rem;
+  border: 1px solid;
+  border-radius: .25rem;
+  width: 10em;
+  margin: auto;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 70px;
+  right: 120px;
+}
+
+section button:hover{
+  transition: all 150ms;
+  background-color: #ffffffda;
+  box-shadow: 0px 0px 2px 2px rgb(32, 32, 32); /*any color you want*/
+}
